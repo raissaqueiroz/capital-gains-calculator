@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/raissaqueiroz/applications/CapitalGainsCalculator/tests/CapitalGainsCalculator.IntegrationTests/CapitalGainsCalculator.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/CapitalGainsCalculator.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/CapitalGainsCalculator.Application.csproj",
+        "projectName": "CapitalGainsCalculator.Application",
+        "projectPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/CapitalGainsCalculator.Application.csproj",
+        "packagesPath": "/home/raissaqueiroz/.nuget/packages/",
+        "outputPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raissaqueiroz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/CapitalGainsCalculator.Domain.csproj": {
+                "projectPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/CapitalGainsCalculator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/raissaqueiroz/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/CapitalGainsCalculator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/CapitalGainsCalculator.Domain.csproj",
+        "projectName": "CapitalGainsCalculator.Domain",
+        "projectPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/CapitalGainsCalculator.Domain.csproj",
+        "packagesPath": "/home/raissaqueiroz/.nuget/packages/",
+        "outputPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raissaqueiroz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/raissaqueiroz/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raissaqueiroz/applications/CapitalGainsCalculator/tests/CapitalGainsCalculator.IntegrationTests/CapitalGainsCalculator.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raissaqueiroz/applications/CapitalGainsCalculator/tests/CapitalGainsCalculator.IntegrationTests/CapitalGainsCalculator.IntegrationTests.csproj",
+        "projectName": "CapitalGainsCalculator.IntegrationTests",
+        "projectPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/tests/CapitalGainsCalculator.IntegrationTests/CapitalGainsCalculator.IntegrationTests.csproj",
+        "packagesPath": "/home/raissaqueiroz/.nuget/packages/",
+        "outputPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/tests/CapitalGainsCalculator.IntegrationTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raissaqueiroz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/CapitalGainsCalculator.Application.csproj": {
+                "projectPath": "/home/raissaqueiroz/applications/CapitalGainsCalculator/src/CapitalGainsCalculator.Application/CapitalGainsCalculator.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/raissaqueiroz/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

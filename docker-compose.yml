@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: capitalgains-app
+    command: ["dotnet", "CapitalGainsCalculator.CLI.dll"]
+
+  unit-tests:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    container_name: capitalgains-unit-tests
+    working_dir: /src
+    volumes:
+      - .:/src
+    command: >
+      dotnet test tests/CapitalGainsCalculator.UnitTests/CapitalGainsCalculator.UnitTests.csproj
+      --logger "console;verbosity=detailed"
+
+  integration-tests:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    container_name: capitalgains-integration-tests
+    working_dir: /src
+    volumes:
+      - .:/src
+    command: >
+      dotnet test tests/CapitalGainsCalculator.IntegrationTests/CapitalGainsCalculator.IntegrationTests.csproj
+      --logger "console;verbosity=detailed"

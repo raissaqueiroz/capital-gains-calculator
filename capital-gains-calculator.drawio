@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Página-1" id="nNfoWOIV5IoHGv5yEjVJ">
+    <mxGraphModel dx="1489" dy="1996" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-1" target="_OqOP6jFOoBoTuEr59Jk-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-1" value="CLI&lt;div&gt;&lt;i&gt;(Usuário insere JSON com operações)&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="-80" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-3" target="_OqOP6jFOoBoTuEr59Jk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-3" value="TaxCalculatorService" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="100" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-4" target="_OqOP6jFOoBoTuEr59Jk-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-15" value="BUY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_OqOP6jFOoBoTuEr59Jk-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0612" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-4" target="wTF-MKEqIfgOQsMxmRZ4-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-4" value="SELL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wTF-MKEqIfgOQsMxmRZ4-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1142" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-4" value="Operation Type?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="715" y="330" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-5" target="wTF-MKEqIfgOQsMxmRZ4-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="405" />
+              <mxPoint x="120" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-5" value="StockPosition.Buy()&lt;div&gt;&lt;i&gt;Atualiza Média e Aumenta Quantidade&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="375" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-8" target="wTF-MKEqIfgOQsMxmRZ4-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-8" value="Operation.TotalValue()&lt;br&gt;&lt;div&gt;&lt;i&gt;Recuperar valor da operação&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="590" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-23" value="PREJUÍZO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_OqOP6jFOoBoTuEr59Jk-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-25" target="_OqOP6jFOoBoTuEr59Jk-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-25" value="TaxPolicy.CalculateTax()&lt;div&gt;&lt;i&gt;Aplica Taxa de Imposto&amp;nbsp;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-28" target="wTF-MKEqIfgOQsMxmRZ4-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-28" value="StockPosition.Sell()&lt;div&gt;&lt;i&gt;Reduz quantidade de ações atual&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1111" y="1070" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="1910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-37" target="_OqOP6jFOoBoTuEr59Jk-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-37" value="LossTracker.Accumulate()&lt;div&gt;&lt;i&gt;Guarda Prejuízo Acumulado&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1111" y="850" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-42" target="_OqOP6jFOoBoTuEr59Jk-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-10" value="PREJUÍZO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wTF-MKEqIfgOQsMxmRZ4-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.2074" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_OqOP6jFOoBoTuEr59Jk-42" target="_OqOP6jFOoBoTuEr59Jk-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNHPhcLzE2VZBkiq3dHd-4" value="LUCRO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wTF-MKEqIfgOQsMxmRZ4-13">
+          <mxGeometry x="-0.0511" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OqOP6jFOoBoTuEr59Jk-42" value="Lucro ou Prejuízo?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1191" y="575" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-2" target="_OqOP6jFOoBoTuEr59Jk-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-2" value="StockPosition.CalculateDiff()&lt;div&gt;&lt;i&gt;Retorna valor (prejuízo ou lucro)&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110.5" y="375" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-11" target="_OqOP6jFOoBoTuEr59Jk-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-11" value="LossTracker.ApplyToProfit()&lt;div&gt;&lt;i&gt;Deduz Prejuízo Acumulado&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="800" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-14" target="_OqOP6jFOoBoTuEr59Jk-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-17" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wTF-MKEqIfgOQsMxmRZ4-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.641" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-14" target="wTF-MKEqIfgOQsMxmRZ4-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNHPhcLzE2VZBkiq3dHd-5" value="NÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wTF-MKEqIfgOQsMxmRZ4-18">
+          <mxGeometry x="-0.0229" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-14" value="Isento?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-21" target="wTF-MKEqIfgOQsMxmRZ4-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-21" value="BuildTaxResult()&lt;div&gt;&lt;i&gt;Adiciona a taxa da operação&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1410" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wTF-MKEqIfgOQsMxmRZ4-25" target="_OqOP6jFOoBoTuEr59Jk-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wTF-MKEqIfgOQsMxmRZ4-25" value="CLI&lt;div&gt;&lt;i&gt;Exibe no Console o JSON pro usuário&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1650" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
